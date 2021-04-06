@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Dobhi lake, Dabhoi, Dist.Vadodara..kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Dobhi lake, Dabhoi, Dist.Vadodara.</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.42040507325761,22.13503368084705,0 73.42074713528964,22.13479831849922,0 73.42078096591275,22.13478595723048,0 73.42109865467934,22.13466865738662,0 73.42111218771917,22.13466248983814,0 73.42154184737313,22.13460088441337,0 73.42173020220415,22.13489114277676,0 73.42174159879544,22.13535733150222,0 73.42174136744711,22.13536981329261,0 73.42188463824019,22.13565134073606,0 73.42242178666133,22.13586490659374,0 73.42319894007575,22.1359151085587,0 73.42335528060664,22.13575781760706,0 73.42343100174784,22.13543212143593,0 73.42344452179952,22.13541963038137,0 73.42341911887803,22.13507719581719,0 73.42344607741262,22.13505236881472,0 73.4240565064443,22.13477998200404,0 73.42413084422212,22.13523881827505,0 73.42413087265913,22.13525749498789,0 73.42407084236989,22.13571379819413,0 73.42403071423468,22.13624327015994,0 73.42403073137891,22.13626860080398,0 73.42389505121946,22.13645262234161,0 73.42365680264867,22.13664414371412,0 73.42319493676956,22.13652934739735,0 73.42285966745187,22.13675279700783,0 73.42250947233275,22.13700225951256,0 73.42214093929591,22.13698966242763,0 73.42180319029845,22.13679122757802,0 73.42132053683214,22.1364405314109,0 73.42095967673487,22.13593424956159,0 73.42044006741126,22.13546962751581,0 73.42040507325761,22.13503368084705,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

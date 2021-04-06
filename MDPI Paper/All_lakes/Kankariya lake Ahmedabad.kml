@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kankariya lake Ahmedabad.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Kankariya lake Ahmedabad</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.59834354018406,23.00663126176197,0 72.59838124574144,23.00578636606091,0 72.59879739252408,23.00492558055564,0 72.59951882140165,23.00415786596286,0 72.60077168115372,23.00380591935972,0 72.60088618080739,23.00388478403483,0 72.6008098140645,23.00552228066755,0 72.60034161904565,23.00558401177384,0 72.60049450576008,23.00683377096977,0 72.60195757069407,23.00683367961837,0 72.60188065895093,23.00555726485455,0 72.60146932480258,23.00554847327788,0 72.60140374547612,23.00371119347159,0 72.60233027965715,23.00385784217282,0 72.60296161392959,23.00424544992052,0 72.60362210892363,23.00501086762173,0 72.60390654029514,23.00571660486553,0 72.60391597959403,23.00659574054454,0 72.6036793745991,23.00734500076093,0 72.6032298078878,23.00797068981071,0 72.60259816717438,23.00849972934985,0 72.60189968971466,23.0087627934847,0 72.60074197023333,23.00881564236695,0 72.59969859275701,23.00849896097861,0 72.59867631919201,23.00751189549346,0 72.59834354018406,23.00663126176197,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

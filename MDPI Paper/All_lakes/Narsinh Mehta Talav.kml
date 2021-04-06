@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Narsinh Mehta Talav.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Narsinh Mehta Talav</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						70.45344207749024,21.51860925893417,0 70.45392916907325,21.51837824074275,0 70.45397360391115,21.51836175128886,0 70.4562178066777,21.51828711630485,0 70.4567236098836,21.5185514668226,0 70.4576407146548,21.51863396453819,0 70.45720497372287,21.52003072350806,0 70.45652721646317,21.5202250961723,0 70.45522429015992,21.52043193487693,0 70.45476384869936,21.52038152957342,0 70.45393085465757,21.52020848928526,0 70.45349257501714,21.51975709398684,0 70.45345651190303,21.5197078034956,0 70.45342075503805,21.51964182703761,0 70.45342059972859,21.51958406534731,0 70.45331742867309,21.51900525906677,0 70.45331767142326,21.51897222411948,0 70.45344207749024,21.51860925893417,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Nalsarovar, dist Ahmedabad.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Nalsarovar, dist: Ahmedabad</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.00889526273025,22.77842259440195,0 72.00920209018771,22.7776217823219,0 72.02293198773653,22.76038576405725,0 72.02353453682248,22.7593213594492,0 72.04307304937034,22.74244883010245,0 72.0565764026026,22.74346289661831,0 72.05837014594618,22.75484311649049,0 72.0675139277065,22.75810660710806,0 72.0675077647075,22.7584186831484,0 72.06187761624825,22.77462585113429,0 72.05579945144055,22.78588691036845,0 72.05152850717231,22.79962338247845,0 72.04411857428059,22.81324031098538,0 72.03178987062326,22.82734995819709,0 72.01645704014939,22.83454069961289,0 72.00063036750244,22.83429285388088,0 71.99226690898902,22.82527555943414,0 71.99177010333534,22.82462306378527,0 72.00889526273025,22.77842259440195,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

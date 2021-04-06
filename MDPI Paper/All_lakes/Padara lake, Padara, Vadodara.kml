@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Padara lake, Padara, Vadodara.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Padara lake, Padara, Vadodara</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.08117341812991,22.24216253829666,0 73.08152844436064,22.24171901016317,0 73.08154435099269,22.2416964673745,0 73.0815534132733,22.2416864988847,0 73.08181588643548,22.2416105008247,0 73.08182841026124,22.24161538876902,0 73.08221827423239,22.24157665811056,0 73.08223912073193,22.24156941848958,0 73.0822495657532,22.24156459842051,0 73.08258115976771,22.24154069483352,0 73.08261450368973,22.241540706742,0 73.0826325559956,22.24154550693686,0 73.08290974210288,22.24154559907168,0 73.08308374910256,22.24160364932096,0 73.08305441847655,22.24183715471425,0 73.08317428576375,22.24215153131303,0 73.08317533646188,22.24216530655242,0 73.08318411073178,22.24217086347794,0 73.08305638729749,22.24253346860498,0 73.08305476130815,22.24255201017606,0 73.08304125268904,22.24256752488706,0 73.0827946881749,22.24268069313865,0 73.08249945011383,22.24278674594727,0 73.08204081253295,22.24280626386199,0 73.08160500015825,22.24294706327564,0 73.0810233433514,22.24259306782298,0 73.08117341812991,22.24216253829666,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

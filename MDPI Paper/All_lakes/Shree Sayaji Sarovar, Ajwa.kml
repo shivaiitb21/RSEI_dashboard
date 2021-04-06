@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Shree Sayaji Sarovar, Ajwa.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Shree Sayaji Sarovar, Ajwa,
+Vadodara</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.38558691949862,22.37411613622729,0 73.38688441343638,22.37284180619959,0 73.38703721525893,22.37284171297273,0 73.38948210340632,22.37418353351507,0 73.38971141304968,22.3743248835213,0 73.3913162192577,22.37757701075319,0 73.39322802922797,22.37835488862852,0 73.39338098449869,22.37835489778863,0 73.39644042380398,22.37658762742848,0 73.39674631394826,22.37651691870635,0 73.39712870216511,22.37630484873781,0 73.39751109599105,22.37602210586534,0 73.40294066682753,22.37694093772771,0 73.40324655533637,22.37694094222045,0 73.40622987260687,22.37920305907227,0 73.41119975863396,22.38083022326038,0 73.41249995896925,22.38408296244678,0 73.41249999363751,22.38436580802955,0 73.41234793606772,22.38832583288066,0 73.4123479477132,22.3886086953453,0 73.40936311959177,22.39136533147532,0 73.4050812424355,22.3947588614358,0 73.40179322904244,22.39892891704236,0 73.39804661779661,22.39892942216707,0 73.39001746975832,22.39751605288452,0 73.38741747281449,22.40062640136114,0 73.3842066836947,22.40281655258228,0 73.38198915632056,22.39956484762874,0 73.38198917769404,22.39942345651603,0 73.38558691949862,22.37411613622729,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
